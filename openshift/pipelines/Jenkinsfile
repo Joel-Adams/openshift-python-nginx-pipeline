@@ -4,11 +4,11 @@ pipeline {
     }
     environment {
         APPLICATION_NAME = 'python-nginx'
-        GIT_REPO="http://github.com/ruddra/openshift-python-nginx.git"
+        GIT_REPO="https://github.com/Joel-Adams/openshift-python-nginx-pipeline.git"
         GIT_BRANCH="master"
         STAGE_TAG = "promoteToQA"
-        DEV_PROJECT = "dev"
-        STAGE_PROJECT = "stage"
+        DEV_PROJECT = "jadams-xcel-jenkis-dev"
+        STAGE_PROJECT = "jadams-xcel-jenkis-stage"
         TEMPLATE_NAME = "python-nginx"
         ARTIFACT_FOLDER = "target"
         PORT = 8081;
